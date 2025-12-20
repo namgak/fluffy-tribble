@@ -1,1 +1,11 @@
+터미널출력
 
+=== Multi-seed experiment (Greedy vs Tabu(best-insertion)) ===
+Seeds = [42, 43, 44, 45, 46]
+Insertion samples = 15
+Generating streams and running headless sims...
+- seed=42 | ontime Greedy=100.0% vs Tabu=96.5% | p95Lead 14.0 vs 15.0 | maxDelay 0.0 vs 2.0
+- seed=43 | ontime Greedy=100.0% vs Tabu=97.97% | p95Lead 14.0 vs 15.0 | maxDelay 0.0 vs 2.0
+- seed=44 | ontime Greedy=100.0% vs Tabu=95.33% | p95Lead 12.0 vs 15.0 | maxDelay 0.0 vs 2.0
+- seed=45 | ontime Greedy=100.0% vs Tabu=95.04% | p95Lead 13.0 vs 15.0 | maxDelay 0.0 vs 3.0
+- seed=46 | ontime Greedy=100.0% vs Tabu=93.7% | p95Lead 13.0 vs 16.0 | maxDelay 0.0 vs 4.0
