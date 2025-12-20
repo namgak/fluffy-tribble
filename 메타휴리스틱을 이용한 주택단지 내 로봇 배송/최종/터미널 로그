@@ -7,3 +7,34 @@ Generating streams and running headless sims...
 - seed=44 | ontime=95.33% | p95Lead=15.0 | maxDelay=2.0 | avgEvtMs=1.107
 - seed=45 | ontime=95.04% | p95Lead=15.0 | maxDelay=3.0 | avgEvtMs=1.022
 - seed=46 | ontime=93.7% | p95Lead=16.0 | maxDelay=4.0 | avgEvtMs=1.104
+
+=== Seed-level summary (Tabu only) ===
+   seed  on_time_rate_pct  p95_lead_time_min  max_delay_min  avg_event_compute_ms  battery_swaps  robot_throughput_std
+0    42             96.50               15.0            2.0                 1.306              2                11.366
+1    43             97.97               15.0            2.0                 1.067              3                13.947
+2    44             95.33               15.0            2.0                 1.107              3                12.681
+3    45             95.04               15.0            3.0                 1.022              2                12.722
+4    46             93.70               16.0            4.0                 1.104              3                11.730
+
+=== KPI aggregate stats ===
+                      count     mean       std     min     25%     50%     75%     max
+on_time_rate_pct        5.0  95.7080  1.609742  93.700  95.040  95.330  96.500  97.970
+p95_lead_time_min       5.0  15.2000  0.447214  15.000  15.000  15.000  15.000  16.000
+max_delay_min           5.0   2.6000  0.894427   2.000   2.000   2.000   3.000   4.000
+avg_event_compute_ms    5.0   1.1212  0.108888   1.022   1.067   1.104   1.107   1.306
+battery_swaps           5.0   2.6000  0.547723   2.000   2.000   3.000   3.000   3.000
+robot_throughput_std    5.0  12.4892  1.006743  11.366  11.730  12.681  12.722  13.947
+
+=== Item-level (animation seed=42) delivered count: 143 ===
+       item_type  lead_time_min   delay_min
+count        143     143.000000  143.000000
+unique         3            NaN         NaN
+top       Coffee            NaN         NaN
+freq         105            NaN         NaN
+mean         NaN      11.321678    0.041958
+std          NaN       2.804929    0.233592
+min          NaN       3.000000    0.000000
+25%          NaN      10.000000    0.000000
+50%          NaN      12.000000    0.000000
+75%          NaN      13.000000    0.000000
+max          NaN      17.000000    2.000000
