@@ -1,0 +1,9 @@
+=== Tabu-only multi-seed experiment ===
+Seeds = [42, 43, 44, 45, 46]
+Insertion samples = 15
+Generating streams and running headless sims...
+- seed=42 | ontime=96.5% | p95Lead=15.0 | maxDelay=2.0 | avgEvtMs=1.306
+- seed=43 | ontime=97.97% | p95Lead=15.0 | maxDelay=2.0 | avgEvtMs=1.067
+- seed=44 | ontime=95.33% | p95Lead=15.0 | maxDelay=2.0 | avgEvtMs=1.107
+- seed=45 | ontime=95.04% | p95Lead=15.0 | maxDelay=3.0 | avgEvtMs=1.022
+- seed=46 | ontime=93.7% | p95Lead=16.0 | maxDelay=4.0 | avgEvtMs=1.104
